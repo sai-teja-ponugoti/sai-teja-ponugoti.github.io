@@ -44,9 +44,9 @@ body{
 
 /*--- Landing Page---*/
 
-.home-inner {
-  background-image: url(img/coverImage.jpg);
-}
+/* .home-inner {
+  /* background-image: url(img/coverImage.jpg); */
+/* } */ */
 
 .caption {
   width: 75%;
