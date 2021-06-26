@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body{
+
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+
+
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+/*--- Navigation ---*/
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+  background-color: rgb(0, 0, 0, 0.6)!important;
+}
+
+.navbar-brand img {
+  height: 2rem;
+}
+
+.navbar-nav li {
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(236, 186, 100);
+}
+
+/*--- Landing Page---*/
+
+.home-inner {
+  background-image: url(img/websitecover.jpg);
+}
+
+.caption {
+  width: 75%;
+  max-width: 75%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+
+.caption h1 {
+  font-size: 3.1rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
+.caption h3 {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 50%;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+  color:  rgb(224, 208, 173);
+  
+}
+
+
+/*--Typewriter Effect--*/
+
+
+
+/*--End Typewriter effect--*/
+
+
+/*---aboutme Section---*/
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+
+}
+
+.narrow h1 {
+  font-size: 2.4rem;
+}
+
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: .6rem 1.2rem;
+  margin: 1rem;
+  color: white;
+  background-color: #1ebba3;
+  border-color: #1ebba3;
+
+}
+.btn-secondary:hover {
+  background-color: #189582;
+  border-color: #189582;
+
+}
+
+/*---skills Section---*/
+.jumbotron {
+  margin-bottom: 0;
+  padding: 1px 1px;
+  border-radius: 0;
+}
+
+h3.heading-feats {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.3rem;
+}
+
+.heading-underline {
+  width: 18rem;
+  height: 0.2rem;
+  background-color: rgb(243, 216, 94);
+  margin: 0 auto 2rem;
+}
+
+.feature h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: .4rem;
+}
+
+.feature p {
+  font-size: 1.1rem;
+}
+
+/*---Loading Bar Section---*/
+
+.progress {
+  background-color: rgb(20, 20, 17);
+  opacity: 70%;
+  width: 20rem;
+}
+
+/*---End Loading Bar Section---*/
+
+/*---projects Section---*/
+
+.fixed {
+  background-image: url(img/codecode.jpeg);
+  z-index: -1;
+}
+
+.dark{
+  background-color: rgb(0, 0, 0, 0.75);
+  color: white;
+  padding: 7rem 2rem;
+}
+
+.fixed-background h3 {
+margin-bottom: 2rem;
+}
+
+.fixed-background p{
+  margin-top: 1.5rem;
+}
+
+.fixed-background {
+  margin-bottom: -5rem;
+}
+
+.card:hover {
+   -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+   -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+   box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+
+/*---completeskills Section---*/
+
+#completeskills .jumbotron {
+  padding-top: 1px 1px;
+  margin-top: -80px;
+}
+
+/* blockquote .svg-inline--fa {
+  color: rgb(6, 9, 14);
+  margin: 0rem;
+} */
+
+
+
+/* .clients-hr {
+  border-top: 0.05rem solid cornflowerblue;
+} */
+
+
+
+
+/*---Contact Section---*/
+
+footer {
+  background-color: #40474E;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0;
+
+}
+ 
+footer a {
+  color: white;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+
+#linked svg.svg-inline--fa:hover {
+  color: rgb(63, 122, 231)!important;
+}
+#git svg.svg-inline--fa:hover {
+  color: rgb(0, 0, 0)!important;
+}
+#resume svg.svg-inline--fa:hover {
+  color: rgb(22, 194, 79)!important;
+}
+
+hr.socket {
+  width: 100%;
+  border-top: .2rem solid #666b71;
+  margin-top: 3rem;
+}
+
+/* .card :hover {
+  -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75)
+} */
+
+/*---Media Queries---*/
+
+@media (max-width: 767px) {
+
+  .caption h1{
+    font-size: 2rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+  
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+  
+  .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .narrow h1 {
+    font-size: 1.5rem;
+  }
+
+
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
